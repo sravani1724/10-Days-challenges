@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228,237,247);
+    padding-inline-start: 450px;
+    padding-block-start: 200px;
+    color:#486282;
+}
+.modal{
+    background-color: rgba(255,255,255,0.8);
+    display:flex;
+    justify-content: space-evenly;
+    margin-block-start:20px;
+}
+.container{
+    background-color: white;
+    width:550px;
+    height:350px;
+    border-radius:4%;
+}
+h2{
+    padding-block-start:35px;
+    margin-inline-start: 30px;
+}
+#icon1{
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    border:1px;
+}
+icon1{
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    border:1px;
+}
+#icon2{
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    border:1px;
+}
+#icon3{
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    border:1px;
+}
+#icon5{
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    border:1px;
+}
+#icon6{
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    border:1px;
+}
+#icon7{
+       margin-inline-start:480px;
+       position: relative;
+       bottom:45px;
+       border-radius: 50%;
+    width:50px;
+    height:50px;
+    border:1px;
+}
+P{
+  
+    margin-inline-start:240px ;
+    margin-block-start: 30px;
+    font-size:1.0em;
+}
+.span{
+    display:flex;
+    justify-content: space-evenly;
+    margin-block-start: 3px;
+}
+#span4{
+    color:orange;
+}
+.link input{
+    display:block;
+    padding:10px;
+    position: relative;
+    width:480px;
+    margin-inline-start: 35px;
+    margin-block-start: 24px;
+    font-size: 1.0em;
+    background-color:#fcf8f8;
+    border: 1px;
+    color:#486282;
+    border-radius: 5%;
+}
+#icon4{
+    color: rgb(248, 168, 139);
+    background-color: rgb(243, 130, 89);
+    padding-block-start: 15px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    padding-inline-start:15px;
+}
+#icon8{
+    color:orangered;
+    position: relative;
+    left:510px;
+    bottom:30px;
+}
