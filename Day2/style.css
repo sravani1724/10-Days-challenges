@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box ;
+}
+body{
+    background-color: #d7e2f0;
+    padding-inline-start:450px;
+    padding-block-start:150px;
+}
+.card{
+    background-color: #fdfdfd;
+    border-radius:12%;
+    width:300px;
+    height:350px;
+    box-shadow:;
+}
+.price{
+    color:#116fdf;
+    margin-inline-start:20px;
+    margin-block-start: 25px;
+    margin-block-end: 10px;
+    font-size:1.5em;
+    font-weight: 900px;
+    color:rgb(0,0,255);
+}
+.img{
+    margin-inline-start:15x;
+    margin-block-start: 20px;
+    border-radius:15%;
+    padding-inline-start: 17px;
+}
+.title{
+    margin-block-start: 30px;
+    margin-inline-start: 25px;
+}
+.icon{
+    position: relative;
+    left:250px;
+    bottom:45px;
+    border-radius:75%;
+    background-color: #f7f8fa;
+
+}
