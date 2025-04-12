@@ -1,0 +1,144 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+    background-color: #f0ede9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-seri;
+}
+.logo{
+    color:#25d366;
+    margin-inline-start: 100px;
+    margin-block-start: 10px;
+    font-size: larger;
+    position: relative;
+    top:65px;
+    left:50px;
+}
+#wtsapplogo{
+    position: relative;
+    top:8px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline-start:800px;
+    position: relative;
+    bottom: 10px;
+    top:25px;
+    left:50px;
+}
+.content{
+    background-color: #ffffff;
+    width:780px;
+    height:460px;
+    margin-inline-start:300px;
+    padding-inline-start: 50px;
+    padding-block-start: 40px;
+    border-radius:5%;
+    border: 2px solid black;
+    margin-block-start:50px;
+}
+.content h1{
+    color:#252c46;
+    margin-block-end: 6px;
+    font-weight:lighter ;
+    font-weight:1.5em;
+}
+.list{
+    margin-block-start:20px;
+    padding:20px;
+}
+#menu{
+    width:20px;
+    height:15px;
+}
+#setting{
+    width:20px;
+    height:15px;
+}
+.content p{
+    margin-inline-start: 10px;
+    margin-block-start: 8px;
+}
+#QRcode{
+    position: relative;
+    left:480px;
+    bottom:220px;
+    
+}
+.section1 p{
+    position: relative;
+    left:440px;
+}
+#info{
+    position: relative;
+    top: 5px;
+}
+#check{
+    position: relative;
+    top: 5px;
+    background-color: #25d366;
+}
+#arrow-right-up{
+    position: relative;
+    top:5px;
+}
+#arrow-right{
+    position: relative;
+    top:8px;
+}
+#button1{
+    padding-inline-start:20px;
+    padding-inline-end:25px;
+    padding-block-start: 10px;
+    padding-block-end: 10px;
+    border-radius: 20px;
+    background-color: #25d366;
+}
+#download{
+    position: relative;
+    right:25px;
+    font-size: 10px;
+}
+.section2 p{
+    position: relative;
+    bottom:250px;
+}
+.section1 p{
+    position: relative;
+    bottom:230px;
+    color:rgb(183, 202, 219);
+}
+#list1{
+    margin-block-end: 10px;
+}
+#list2{
+    margin-block-end: 10px;
+}
+#list3{
+    margin-block-end:10px;
+}
+#list{
+    margin-block-end:10px;
+}
+.para{
+    text-decoration:underline 2.5px solid rgb(16, 206, 16);
+}
+#para1{
+    position: relative;
+    right:20px;
+}
+.footer{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left:990px;
+    bottom: 53px;
+    color:rgb(192, 188, 188)
+
+}
+
+
