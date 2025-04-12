@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    
+}
+.container{
+    background-color: #ffffff;
+    width:450px;
+    height:420px;
+    margin-inline-start:400px;
+    margin-block-start: 150px;
+    border-radius: 5px;
+    border:none;
+    box-shadow: 3px 3px 3px 3px #999;
+}
+h2{
+    margin-inline-start:150px;
+    padding-block-start:10px;
+}
+.input input{
+    padding-block-start: 15px;
+    padding-block-end: 15px;
+    margin-block-start: 20px;
+    margin-inline-start:5px;
+    width:380px;
+    border:1px solid rgb(228, 225, 225) ;
+    border-radius: 5px;
+
+}
+.input button{
+    background-color: blue;
+    color:white;
+    padding:15px 18px 15px 18px;
+    border:none;
+    border-radius: 2px;
+    
+}
+.button{
+    margin-block-start: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block-end: 20px;
+}
+#button1{
+       padding:10px 15px 10px 15px;
+       margin-inline-end:5px;
+       color:white;
+       background-color: blue;
+       border:none;
+       border-radius: 3px;
+
+}
+#button2{
+    padding:10px 15px 10px 15px;
+    margin-inline-end:5px;
+    border-radius: 3px;
+    border:1px solid rgb(228, 225, 225) ;
+
+}
+#button3{
+    padding:10px 15px 10px 15px;
+    border-radius: 3px;
+    border:1px solid rgb(228, 225, 225) ;
+
+}
+.checkbox{
+    margin-inline-start: 10px;
+}
+.checkbox button{
+    margin-inline-start:180px;
+    color: white;
+    background-color:orangered;
+    border: none;
+    border-radius:5px;
+}
+#button4{
+    padding:8px 10px 8px 10px;
+    margin-block-end: 7px;
+    
+}
+#button5{
+    padding:8px 10px 8px 10px;
+    margin-inline-start:220px;
+    margin-block-end: 7px;
+    
+}
+#button6{
+    padding:8px 10px 8px 10px;
+    margin-inline-start:185px;
+    margin-block-end: 7px;
+}
+#button7{
+    padding:8px 10px 8px 10px;
+    margin-inline-start:157px;
+    margin-block-end: 7px;
+}
+#send{
+    text-decoration: line-through #999;
+    color:#999;
+}
+.hr{
+    color: #999;
+}
