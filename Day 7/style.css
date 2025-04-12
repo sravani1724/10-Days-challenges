@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-image:url("../../../Downloads/login-hero-bg.jpg") ;
+   
+}
+.container{
+    justify-content: center;
+    align-items:center;
+    width:300px;
+    height:300px;
+    background-color: rgba(255,255,255,o.1);
+    backdrop-filter: blur(20px);
+    position: relative;
+    top:150px;
+    color: white;
+    box-shadow: 5px transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+#text{
+    display: block;
+    background-color: transparent;
+    border:none;
+    border-bottom: 2px solid white;
+    margin-block-end: 15px;
+    margin-inline-start: 20px;
+    padding-block-end: 10px;
+    width:250px;
+
+}
+#password{
+    display:block;
+    background-color: transparent;
+    border:none;
+    border-bottom: 2px solid white;
+    margin-block-end: 15px;
+    margin-inline-start: 20px;
+    padding-block-end: 10px;
+    width:250px;
+    
+}
+#login{
+    padding-block-start:15px;
+    width:280px;
+    margin-block-end: 25px;
+    padding-block-end: 10px;
+    margin-inline-start: 10px;
+    font-size:1.2em;
+    border-radius: 5px;
+}
+input::placeholder{
+    color:white;
+}
+.button{
+    margin-block-start: 30px;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+    margin-inline-start:15px;
+}
+.login{
+    margin-block-start: 40px;
+    margin-inline-start:120px;
+}
+.input{
+    margin-block-start: 30px;
+}
+#login:hover{
+    background-color: rgba(255,255,255,0.8);
+}
+a:hover{
+    color:blue;
+}
