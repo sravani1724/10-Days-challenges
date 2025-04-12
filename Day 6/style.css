@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+    box-shadow: 2px;
+    color:#ffffff;
+    font-family: Arial, sans-serif;
+}
+#login{
+    background-color: blue;
+}
+input{
+    background-color: rgb(27, 22, 22);
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.form{
+    position: relative;
+    left:650px;
+    bottom: 160px;
+}
+.image{
+    position: relative;
+    top:200px;
+    left:200px;
+    bottom:100px;
+}
+h2{
+    font-family:sans-serif;
+}
+#text{
+    margin-block-start: 20px;
+    margin-block-end: 7px;
+    width:280px;
+    border:1px solid white;
+}
+#password{
+    margin-block-end: 15px;
+    width:280px;
+    border:1px solid white;
+}
+#login{
+    width:280px;
+    background-color: blue;
+    color: white;
+    border-radius:12px;
+    padding:10px;
+}
+#or{
+    position: relative;
+    left:120px;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+}
+#facebook{
+    position: relative;
+    top:5px;
+    left:30px;
+}
+#link1{
+    text-decoration: none;
+    position: relative;
+    left:35px;
+}
+a:hover{
+    color: indigo;
+}
+#forgot{
+margin-block-start: 25px;
+margin-block-end: 35px;
+position: relative;
+left:50px;
+}
+#link2{
+    padding-inline-end:30px;
+}
+.footer p{
+    margin-block-start: 35px;
+    margin-inline-start:65px;
+    margin-block-end: 20px;
+}
+.footer button{
+    width:130px;
+    background-color: black;
+    color:white;
+    box-shadow: 1px 1px 1px 1px white;
+    border-radius: 3px;
+}
+#playstore{
+    background-color: black;
+    position: relative;
+    top:8px;
+    right:6px;
+}
+#button1{
+    margin-inline-end:10px;
+}
+#microsoft{
+    position: relative;
+    top:13px;
+    right:12px;
+}
+#account{
+    margin-inline-start:20px;
+}
+span{
+    font-size: larger;
+    margin-inline-start:25px;
+}
